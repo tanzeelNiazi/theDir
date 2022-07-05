@@ -1,0 +1,62 @@
+.svg-nav-icon,
+.svg-user-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.svg-user-icon {
+  fill: #fff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: $unit__submedium;
+  justify-self: end;
+
+  &__link {
+    transition: all 0.3s;
+    &:hover,
+    &:active {
+      color: $color__secondary;
+    }
+  }
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: end;
+  align-self: start;
+  gap: $unit__submedium;
+}
+
+.user__link {
+  padding: $unit__small $unit__submedium 0 $unit__submedium;
+  display: flex;
+  color: lighten($color: $color__dark, $amount: 40%);
+  align-items: flex-start;
+  justify-content: center;
+  gap: $unit__small;
+
+  &:hover,
+  &:active {
+    color: #000;
+  }
+}
+
+.cta__link {
+  background: $color__secondary;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:hover,
+  &:active {
+    background: darken($color: $color__secondary, $amount: 10%);
+    color: #fff;
+  }
+}

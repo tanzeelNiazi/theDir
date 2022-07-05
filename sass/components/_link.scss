@@ -1,0 +1,8 @@
+a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: $unit__tiny;
+  color: $color__dark;
+}

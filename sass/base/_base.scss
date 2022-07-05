@@ -1,0 +1,11 @@
+body {
+  background: $color__bg;
+}
+
+#root {
+  margin: $unit__normal auto;
+  max-width: 120rem;
+  min-height: 70rem;
+  background: $color__primary;
+  box-shadow: 0 2px 5px rgba(68, 68, 68, 0.25);
+}
