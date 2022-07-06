@@ -70,8 +70,50 @@
               </a>
             </nav>
           </div>
+          <div class="hero">
+            <h3 class="hero__title">
+              <span>Discover</span>
+              <span>your amazing city</span>
+            </h3>
+            <p class="hero__description">
+              find great places to stay, eat, shop or visit from local experts.
+            </p>
+          </div>
         </div>
       </header>
+      <section class="section-search">
+        <div class="search">
+          <div class="input-field">
+            <label for="what" class="label">What</label>
+            <input list="what" class="input" placeholder="What You Want" />
+            <datalist id="what">
+              <option value="Food" />
+              <option value="car service" />
+              <option value="Barber" />
+              <option value="Hotel" />
+            </datalist>
+          </div>
+          <div class="input-field">
+            <label for="where" class="label">Where</label>
+            <input list="where" class="input" placeholder="What You Want" />
+            <datalist id="where">
+              <option value="San Francisco" />
+              <option value="New York" />
+              <option value="Texas" />
+              <option value="Kentucky" />
+            </datalist>
+          </div>
+
+          <button class="btn-search">
+            <span>
+              <svg class="svg-icon">
+                <use xlink:href="./assets/svg-sprite.svg#m-glass"></use>
+              </svg>
+            </span>
+            <span>Search</span>
+          </button>
+        </div>
+      </section>
     </div>
   </body>
 </html>

@@ -1,13 +1,13 @@
 Hi 👋, I'm Tanzeel Akhtar, a passionate frontend developer from Pakistan.
 
-This is a **README** file of [Unlimited Listing Directory](http://www.tanzeel.website). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
+This is a **README** file of [Unlimited Listing Directory](https://github.com/tanzeelNiazi/theDir). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
 
 # Project Name: Unlimited Listing Directory
 
 - Clean Layout, Modern Design, focus on listing item. TheDir helps user find anything within their vicinity.
 - Desktop only.
 
-### Website Demo: [http://www.tanzeel.website](http://www.tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/theDir/](https://tanzeelniazi.github.io/theDir/)
 
 # Additional Information
 

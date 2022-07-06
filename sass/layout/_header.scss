@@ -1,5 +1,23 @@
 .navbar {
-  padding: $unit__submedium 0;
   margin: auto;
   width: 95%;
+}
+
+.hero {
+  width: 70%;
+  margin: $unit__huge auto;
+
+  &__title {
+    margin: $unit__submedium auto;
+    font-size: $unit__large;
+    line-height: 0.8;
+
+    span {
+      display: block;
+    }
+
+    span + span {
+      font-weight: 300;
+    }
+  }
 }
