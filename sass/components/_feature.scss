@@ -1,0 +1,36 @@
+.feature {
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.3s;
+
+  &__icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    transition: all 0.5s;
+  }
+
+  &:hover &__icon {
+    fill: #fff;
+  }
+
+  &:hover {
+    background: $color__secondary;
+  }
+
+  &__name {
+    color: $color__dark;
+    transition: all 0.5s;
+  }
+
+  &:hover &__name {
+    color: #fff;
+  }
+}

@@ -43,3 +43,4 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Unlimited Listing Directory Landing Page](https://www.behance.net/gallery/82796955/Thedir-Unlimited-Listing-Directory-Website)
+- [City under Blue Sky](https://www.pexels.com/photo/photograph-of-a-city-under-a-blue-sky-10549878/)

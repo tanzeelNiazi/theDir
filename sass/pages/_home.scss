@@ -67,3 +67,52 @@
 .btn-search:hover {
   background: darken($color: $color__secondary, $amount: 10%);
 }
+
+.highlights {
+  position: relative;
+  width: 70%;
+  margin: $unit__huge auto;
+
+  &__bg {
+    position: absolute;
+    top: -15rem;
+    left: -20rem;
+    width: 150%;
+    height: 40rem;
+    background: url("../assets/skyline.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+  }
+
+  &__desc {
+    position: relative;
+    margin: $unit__small auto;
+    padding: $unit__small;
+    text-shadow: 0 2px 3px #444;
+    display: inline-block;
+    background: rgba(68, 68, 68, 0.25);
+    color: #fff;
+    border-radius: 10px;
+  }
+}
+
+.features {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $unit__normal;
+}
+
+.section-content {
+  margin: auto;
+  margin-top: -2rem;
+  width: 90%;
+  position: relative;
+}
+
+.how-works {
+  padding: $unit__normal;
+  background: #fff;
+}
