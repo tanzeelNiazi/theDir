@@ -124,8 +124,8 @@ a {
   transition: all 0.3s;
 }
 .feature__icon {
-  width: 6.4rem;
-  height: 6.4rem;
+  width: 6rem;
+  height: 6rem;
   transition: all 0.5s;
 }
 .feature:hover .feature__icon {
@@ -158,6 +158,11 @@ a {
   justify-content: center;
   gap: 1.6rem;
 }
+.visual span {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #b2b2b2;
+}
 
 .text {
   display: flex;
@@ -167,9 +172,48 @@ a {
 }
 
 .svg-method-icon {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 3.2rem;
+  height: 3.2rem;
   fill: #a4cc57;
+}
+
+.destination {
+  cursor: pointer;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  filter: invert(0.3);
+}
+.destination:hover {
+  filter: invert(0);
+}
+.destination__name {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.destination:hover .destination__name {
+  color: red;
+}
+.destination__listing {
+  font-size: 1.2rem;
+}
+
+.destination__image-container {
+  overflow: hidden;
+  width: 22rem;
+  height: auto;
+}
+
+.destination__image {
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+
+.destination:hover .destination__image {
+  transform: scale(1.1);
 }
 
 .grid {
@@ -319,15 +363,39 @@ a {
 }
 
 .section-content {
+  background: #fff;
   margin: auto;
   margin-top: -2rem;
-  width: 90%;
+  max-width: 90%;
   position: relative;
 }
 
 .how-works {
   padding: 1.6rem;
-  background: #fff;
+  padding-bottom: 6.4rem;
+  border-bottom: 1px solid #b2b2b2;
+}
+.how-works__title {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+.how-works__title span {
+  font-weight: 600;
+}
+
+.featured-destinations {
+  padding: 1.6rem;
+}
+.featured-destinations__title {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+.featured-destinations__title span {
+  font-weight: 600;
+}
+
+.destinations {
+  padding: 1.6rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

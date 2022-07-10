@@ -106,13 +106,41 @@
 }
 
 .section-content {
+  background: #fff;
   margin: auto;
   margin-top: -2rem;
-  width: 90%;
+  max-width: 90%;
   position: relative;
 }
 
 .how-works {
   padding: $unit__normal;
-  background: #fff;
+  padding-bottom: $unit__huge;
+  border-bottom: 1px solid $color__semi;
+
+  &__title {
+    font-size: $unit__medium;
+    font-weight: 300;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.featured-destinations {
+  padding: $unit__normal;
+
+  &__title {
+    font-size: $unit__medium;
+    font-weight: 300;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.destinations {
+  padding: $unit__normal 0;
 }

@@ -44,3 +44,7 @@ Following Images/Designs/Icons are used for creation of this website:
 
 - [Unlimited Listing Directory Landing Page](https://www.behance.net/gallery/82796955/Thedir-Unlimited-Listing-Directory-Website)
 - [City under Blue Sky](https://www.pexels.com/photo/photograph-of-a-city-under-a-blue-sky-10549878/)
+- [San Francisco](https://www.pexels.com/photo/golden-gate-bridge-san-francisco-2104742/)
+- [London](https://www.pexels.com/photo/city-view-at-london-672532/)
+- [Tokyo](https://www.pexels.com/photo/orange-temple-161251/)
+- [Miami](https://www.pexels.com/photo/white-boat-on-sea-near-city-buildings-6937301/)

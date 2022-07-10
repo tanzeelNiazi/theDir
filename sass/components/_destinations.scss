@@ -1,0 +1,42 @@
+.destination {
+  cursor: pointer;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  filter: invert(0.3);
+
+  &:hover {
+    filter: invert(0);
+  }
+
+  &__name {
+    font-size: $unit__submedium * 0.75;
+    font-weight: 500;
+  }
+
+  &:hover &__name {
+    color: red;
+  }
+
+  &__listing {
+    font-size: $unit__normal * 0.75;
+  }
+}
+
+.destination__image-container {
+  overflow: hidden;
+  width: 22rem;
+  height: auto;
+}
+
+.destination__image {
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+
+.destination:hover .destination__image {
+  transform: scale(1.1);
+}
