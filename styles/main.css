@@ -216,6 +216,108 @@ a {
   transform: scale(1.1);
 }
 
+.listing .info {
+  margin: 0.8rem auto;
+  font-size: 1.28rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listing__image-container {
+  width: 25rem;
+  height: auto;
+}
+
+.listing__image {
+  width: 100%;
+}
+
+.info__feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.rating-highlight {
+  text-shadow: 0 1px #444;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  background: #a4cc57;
+}
+
+.listing-price {
+  color: #ff5a60;
+  font-weight: 700;
+}
+
+.listing__icon {
+  transform: rotate(30deg);
+}
+
+.listing__icon,
+.listing__icon-vertical {
+  fill: #444;
+  width: 2rem;
+  height: 2rem;
+}
+
+.author-image-container {
+  flex: 1 0 auto;
+  width: 8rem;
+}
+
+.author-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.4rem 0 1.6rem 0;
+  border-bottom: 2px solid rgba(68, 68, 68, 0.25);
+}
+.author p {
+  font-size: 1.2rem;
+}
+
+.location {
+  padding: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.36rem;
+}
+
+.status__open, .status__close {
+  color: #fff;
+  text-shadow: 0 2px 1px rgba(68, 68, 68, 0.35);
+  padding: 0.4rem 0.8rem;
+  font-weight: 700;
+}
+.status__open {
+  background: #a4cc57;
+}
+.status__close {
+  background: #ff5a60;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-location {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 .grid {
   display: grid;
 }
@@ -230,6 +332,14 @@ a {
 
 .grid__4-cols {
   grid: 1fr/repeat(4, 1fr);
+}
+
+.grid__5-cols {
+  grid: 1fr/repeat(5, 1fr);
+}
+
+.grid__6-cols {
+  grid: 1fr/repeat(6, 1fr);
 }
 
 .grid__12-cols {
@@ -396,6 +506,22 @@ a {
 
 .destinations {
   padding: 1.6rem 0;
+}
+
+.directory {
+  margin: 1.6rem auto;
+}
+.directory__title {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+.directory__title span {
+  font-weight: 700;
+}
+
+.listings {
+  margin: 2.4rem auto;
+  gap: 3.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */

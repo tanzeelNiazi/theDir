@@ -144,3 +144,18 @@
 .destinations {
   padding: $unit__normal 0;
 }
+
+.directory {
+  margin: $unit__normal auto;
+  &__title {
+    font-size: $unit__medium;
+    font-weight: 300;
+    span {
+      font-weight: 700;
+    }
+  }
+}
+.listings {
+  margin: $unit__submedium auto;
+  gap: $unit__medium;
+}

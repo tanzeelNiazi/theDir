@@ -14,6 +14,14 @@
   grid: 1fr / repeat(4, 1fr);
 }
 
+.grid__5-cols {
+  grid: 1fr / repeat(5, 1fr);
+}
+
+.grid__6-cols {
+  grid: 1fr / repeat(6, 1fr);
+}
+
 .grid__12-cols {
   grid: 1fr / repeat(12, 1fr);
 }
