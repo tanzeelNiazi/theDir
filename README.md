@@ -55,3 +55,5 @@ Following Images/Designs/Icons are used for creation of this website:
 - [Man in Brown Shirt](https://www.pexels.com/photo/man-wearing-eyeglasses-and-brown-shirt-sitting-on-chair-1878687/)
 - [Lake Hotel](https://www.pexels.com/photo/lake-in-mountains-near-hotel-complex-6033934/)
 - [Brown Wooden House](https://www.pexels.com/photo/brown-wooden-house-in-daytime-453201/)
+- [Man with Cigarette](https://www.pexels.com/photo/man-with-cigarette-in-mouth-1933873/)
+- [Woman wearing white&black](https://www.pexels.com/photo/woman-wearing-white-and-black-tattersall-collared-button-up-blouse-standing-near-brown-wall-1118689/)

@@ -159,3 +159,20 @@
   margin: $unit__submedium auto;
   gap: $unit__medium;
 }
+
+.section-content {
+  margin: $unit__medium auto;
+}
+.reviews {
+  padding: $unit__normal;
+  max-width: 90%;
+  margin: auto;
+
+  &__title {
+    margin-bottom: $unit__normal;
+  }
+}
+
+.clients {
+  gap: $unit__large;
+}

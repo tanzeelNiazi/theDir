@@ -1,0 +1,122 @@
+.footer {
+  margin: auto;
+  width: 95%;
+  gap: $unit__medium;
+}
+
+.address,
+.company,
+.quick-links,
+.newsletter {
+  justify-self: center;
+}
+
+.footer-logo {
+  width: 15rem;
+  &__image {
+    width: 90%;
+  }
+}
+
+.location__title {
+  margin: $unit__submedium auto 0 auto;
+  font-size: $unit__normal;
+}
+.location__detail {
+  margin: $unit__normal auto;
+  text-align: center;
+  span {
+    display: block;
+  }
+}
+
+.company__title,
+.quicklinks__title,
+.newsletter__title {
+  margin-bottom: $unit__normal;
+}
+
+.company-links,
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: $unit__tiny;
+}
+
+.newsletter__detail {
+  font-size: $unit__normal * 0.75;
+  margin-bottom: $unit__normal;
+}
+
+.footer-link {
+  padding-bottom: $unit__tiny;
+  color: $color__dark;
+  margin-bottom: $unit__small;
+
+  &:link,
+  &:visited {
+    border-bottom: 2px solid transparent;
+  }
+
+  &:hover,
+  &:active {
+    border-bottom: 2px solid #444;
+  }
+}
+
+.newsletter-field {
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 2px 2px rgba(68, 68, 68, 0.15);
+}
+
+.btn-newsletter {
+  margin: $unit__small 0;
+  cursor: pointer;
+  padding: $unit__small $unit__submedium;
+  height: $unit__large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  background: $color__secondary;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.btn-newsletter:hover {
+  background: darken($color: $color__secondary, $amount: 10%);
+}
+
+.attribution {
+  margin-top: $unit__medium;
+  text-align: right;
+  font-size: 1.2rem;
+
+  &__link {
+    padding: 0.8rem;
+    display: inline-block;
+    transition: all 0.3s;
+
+    &:link,
+    &:visited {
+      background: #ff6501;
+      color: #ffffff;
+    }
+
+    &:hover,
+    &:active {
+      background: #000000;
+      transform: scale(1.1) translate(5px, -2px) skewY(-5deg);
+    }
+  }
+}
